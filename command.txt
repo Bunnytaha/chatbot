@@ -1,0 +1,12 @@
+commands 
+  
+  1. cd chatbot-deployment
+  2. python -m venv venv
+  3. Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+  4. .\venv\Scripts\Activate
+  5. pip install Flask torch torchvision nltk
+  6. python
+  7. import nltk
+  8. nltk.download('punkt')
+  9. python train.py
+  10. python chat.py
