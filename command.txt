@@ -1,6 +1,6 @@
 commands 
   
-  1. cd chatbot-deployment
+  1. cd chatbot
   2. python -m venv venv
   3. Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
   4. .\venv\Scripts\Activate
@@ -10,3 +10,7 @@ commands
   8. nltk.download('punkt')
   9. python train.py
   10. python chat.py
+
+  //for responses 
+
+  update intents.json and run tain.py file 
