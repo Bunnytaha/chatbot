@@ -10,7 +10,7 @@ commands
   8. nltk.download('punkt')
   9. python train.py
   10. python chat.py
-
+11. python app.py 
   //for responses 
 
   update intents.json and run tain.py file 
